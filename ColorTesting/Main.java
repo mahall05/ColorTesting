@@ -27,7 +27,7 @@ public class Main extends JComponent{
     public Main(){
         pixels = new Color[WIDTH];
         ledZones = new LEDZone[] {new LEDZone("Full", 0, WIDTH)};
-        ledZones[0].setEffect(new ColorWaveEffect(0, WIDTH, new Color(255, 255, 255), new Color(0,255,255), 100, 200, Type.status));
+        ledZones[0].setEffect(new ColorWaveEffect(0, WIDTH, new Color(255, 255, 255), new Color(0,255,255), 100, 8000, Type.status));
     }
     public void start(){
         run();
